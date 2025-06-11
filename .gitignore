@@ -1,0 +1,103 @@
+# Ignores for C# solutions and projects
+
+## Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+Build/
+*.log
+*.bak
+*.user
+*.suo
+*.nxdb
+*.sdf
+*.vshost.*
+*.vspscc
+*.local
+*.resharper
+
+## Visual Studio
+.vs/                  # Folder for Visual Studio's hidden files (e.g., .suo, .user)
+*.user
+*.suo
+*.suo.user
+*.suo.*.user
+*.suo.user
+*.csproj.user
+*.vbproj.user
+*.vsix
+*.vsixmanifest
+VSIX/
+
+## NuGet
+packages/             # Older style NuGet packages folder
+.nuget/               # NuGet tool folder (sometimes contains ignored files)
+*.nupkg               # NuGet package files
+*.lock.json           # Package lock file (sometimes ignored, depends on workflow)
+project.lock.json     # Older NuGet 3.x lock file
+.restore/
+
+## Rider
+.idea/                # JetBrains Rider specific folder
+*.DotSettings
+*.DotSettings.user
+
+## ReSharper
+_ReSharper.*/         # ReSharper cache folder
+*.resharper
+
+## Visual Studio Code
+.vscode/              # VS Code specific settings (sometimes ignored for shared projects)
+
+## Miscellaneous
+[Tt]humbs.db
+[Dd]esktop.ini
+*.dbmdl
+*.publishproj.user
+Generated_files/
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## SQL Server Management Studio (SSMS)
+*.ssmssln
+
+## Source control
+# These are typically managed by the source control system itself, but good to list common ones
+*.scc
+*.vssscc
+
+## StyleCop/FxCop/Roslyn Analyzers
+StyleCop.Cache
+FxCopReport.xml
+
+## Local files (e.g., for debugging, not part of the solution)
+*.config.user
+*.json.user
+*.xml.user
+
+## WCF and ASP.NET
+*.svc.cs.user
+*.datasource
+
+## Azure Tools
+ServiceConfiguration.Local.cscfg
+ServiceConfiguration.Cloud.cscfg
+
+## Temporary files
+*~
+#*#
+.#*
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Exclude specific files if necessary, e.g. a specific local database
+#!MyLocalDatabase.mdf
